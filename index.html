@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechZone Gadget Store | Latest Electronics</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; color: #333; margin: 0; padding: 0; }
+        header { background: #1a1a1a; color: white; padding: 1rem 0; text-align: center; }
+        nav { background: #333; padding: 0.5rem; text-align: center; position: sticky; top: 0; z-index: 100; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        .hero { background: #f4f4f4; padding: 2rem; text-align: center; }
+        .promo { background: #ffcc00; padding: 10px; font-weight: bold; text-align: center; }
+        section { padding: 2rem; border-bottom: 1px solid #ddd; }
+        .product-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        .product-card { border: 1px solid #eee; padding: 15px; border-radius: 8px; text-align: center; transition: box-shadow 0.2s; }
+        .product-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.12); }
+        .product-card img { width: 100%; height: 180px; object-fit: cover; border-radius: 6px; background: #f9f9f9; }
+        .price { color: #e67e22; font-size: 1.2rem; font-weight: bold; }
+        .status { font-size: 0.9rem; color: #27ae60; }
+        .status.low { color: #e67e22; }
+        .status.out { color: #e74c3c; }
+        .status.pre { color: #2980b9; }
+        footer { background: #1a1a1a; color: white; text-align: center; padding: 1rem; margin-top: 2rem; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>TechZone Gadget Store</h1>
+        <p>Your Ultimate Destination for Modern Electronics</p>
+    </header>
+
+    <div class="promo">
+        ?? NEW ARRIVAL: iPhone 15 Pro Max &amp; RTX 4090 Laptops Now In Stock! 10% Off for New Customers!
+    </div>
+
+    <nav>
+        <a href="#smartphones">Smartphones</a>
+        <a href="#laptops">Laptops</a>
+        <a href="#audio">Audio</a>
+        <a href="#wearables">Wearables</a>
+        <a href="#gaming">Gaming</a>
+    </nav>
+
+    <!-- SMARTPHONES -->
+    <section id="smartphones">
+        <h2>?? Smartphones</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="https://image.made-in-china.com/368f3j00HaFtOdDcEPbM/New-X25-Ultra-6-7inch-HD-Octa-Core-Big-Battery13MP-Camera-Global-4G-Android-Smartphone-with-Stylus.webp" alt="X-Phone Ultra OLED Smartphone">
+                <h3>X-Phone Ultra</h3>
+                <p>6.7-inch OLED display with 120Hz refresh rate.</p>
+                <p class="price">$999.00</p>
+                <p class="status">In Stock</p>
+            </div>
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdkQgDfX2Hg3oWnCKo_XYbk-40iwJoCr4L7Q&s" alt="Galaxy Z-Fold Foldable Phone">
+                <h3>Galaxy Z-Fold</h3>
+                <p>The ultimate multitasking folding smartphone.</p>
+                <p class="price">$1,799.00</p>
+                <p class="status pre">Pre-Order</p>
+            </div>
+            <div class="product-card">
+                <img src="https://imagedelivery.net/7D3NQGy_afPWwbfcO5Acjw/celltronics.lk/2023/10/Google-Pixel-8-Pro-2.jpg/w=800,h=800,fit=crop" alt="Pixel Vision 8">
+                <h3>Pixel Vision 8</h3>
+                <p>Crystal clear photography powered by AI.</p>
+                <p class="price">$699.00</p>
+                <p class="status">In Stock</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- LAPTOPS -->
+    <section id="laptops">
+        <h2>?? Laptops</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="https://cdn.thewirecutter.com/wp-content/media/2023/01/ultraportablelaptops-2048px-0888.jpg" alt="ZenBook Pro Ultrabook" onerror="this.src='https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400&h=300&fit=crop'">
+                <h3>ZenBook Pro</h3>
+                <p>Thin, light, and powerful for creators.</p>
+                <p class="price">$1,200.00</p>
+                <p class="status">In Stock</p>
+            </div>
+            <div class="product-card">
+                <img src="https://m.media-amazon.com/images/I/81zBkj2CPLL._AC_SL1500_.jpg" alt="Titan Gaming G5 Laptop" onerror="this.src='https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=400&h=300&fit=crop'">
+                <h3>Titan Gaming G5</h3>
+                <p>Equipped with RTX 4080 and 32GB RAM.</p>
+                <p class="price">$2,499.00</p>
+                <p class="status low">Low Stock</p>
+            </div>
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400&h=300&fit=crop" alt="AirBook M3 Laptop">
+                <h3>AirBook M3</h3>
+                <p>Silent performance with 18-hour battery life.</p>
+                <p class="price">$1,099.00</p>
+                <p class="status">In Stock</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- AUDIO & HEADPHONES -->
+    <section id="audio">
+        <h2>?? Audio &amp; Headphones</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkYkxn-4vSKBzIwjfM-xradaHfDkGbMaSkYA&s" alt="Sonic-Boom NC Noise Cancelling Headphones" onerror="this.src='https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=300&fit=crop'">
+                <h3>Sonic-Boom NC</h3>
+                <p>Industry-leading active noise cancellation.</p>
+                <p class="price">$349.00</p>
+                <p class="status">In Stock</p>
+            </div>
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmvPfq2K_Pc2irP0PV-cv_7e-aD1SFDDUrqg&s" alt="PureBuds Air Wireless Earbuds">
+                <h3>PureBuds Air</h3>
+                <p>Wireless earbuds with deep bass and IPX7 rating.</p>
+                <p class="price">$129.00</p>
+                <p class="status">In Stock</p>
+            </div>
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400&h=300&fit=crop" alt="Outdoor Titan Bluetooth Speaker">
+                <h3>Outdoor Titan</h3>
+                <p>Waterproof Bluetooth speaker for long parties.</p>
+                <p class="price">$89.00</p>
+                <p class="status out">Out of Stock</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SMARTWATCHES / WEARABLES -->
+    <section id="wearables">
+        <h2>? Smartwatches &amp; Wearables</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7unn2R0v5UH0WtMSzjRl3AzwDt7rJa7tfKg&s" alt="Vitals Watch S Health Tracker" onerror="this.src='https://images.unsplash.com/photo-1544117519-31a4b719223d?w=400&h=300&fit=crop'">
+                <h3>Vitals Watch S</h3>
+                <p>Advanced heart and sleep tracking metrics.</p>
+                <p class="price">$199.00</p>
+                <p class="status">In Stock</p>
+            </div>
+            <div class="product-card">
+                <img src="https://res.garmin.com/en/products/010-02803-10/v/cf-lg.jpg" alt="Adventure Pro 2 GPS Smartwatch" onerror="this.src='https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=300&fit=crop'">
+                <h3>Adventure Pro 2</h3>
+                <p>Rugged design with dual-band GPS.</p>
+                <p class="price">$499.00</p>
+                <p class="status">In Stock</p>
+            </div>
+            <div class="product-card">
+                <img src="https://m.media-amazon.com/images/I/51dCaFm4aLL._AC_SL1000_.jpg" alt="FitBand Lite Step Counter" onerror="this.src='https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=400&h=300&fit=crop'">
+                <h3>FitBand Lite</h3>
+                <p>Simple step counter with 20-day battery life.</p>
+                <p class="price">$49.00</p>
+                <p class="status">In Stock</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- GAMING ACCESSORIES -->
+    <section id="gaming">
+        <h2>?? Gaming Accessories</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="https://www.xtrfy.com/globalassets/images/products/mice/m4-rgb/xg-m4-rgb-street/xg-m4-rgb-street-1200x1200px_1.jpg" alt="Click-Master RGB Gaming Mouse" onerror="this.src='https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=400&h=300&fit=crop'">
+                <h3>Click-Master RGB</h3>
+                <p>Ultra-light gaming mouse with 25k DPI.</p>
+                <p class="price">$79.00</p>
+                <p class="status">In Stock</p>
+            </div>
+            <div class="product-card">
+                <img src="https://assets2.razerzone.com/images/pnx.assets/ad3d9028c00fc7f0afb5a4f89c6ef2e8/razer-blackwidow-v4-pro-1200x900.jpg" alt="Mech-Strike K9 Mechanical Keyboard" onerror="this.src='https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=400&h=300&fit=crop'">
+                <h3>Mech-Strike K9</h3>
+                <p>Mechanical keyboard with hot-swappable switches.</p>
+                <p class="price">$149.00</p>
+                <p class="status">In Stock</p>
+            </div>
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?w=400&h=300&fit=crop" alt="Turbo-Pad Pro Wireless Controller">
+                <h3>Turbo-Pad Pro</h3>
+                <p>Zero-latency wireless controller for PC &amp; Console.</p>
+                <p class="price">$69.00</p>
+                <p class="status">In Stock</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 TechZone Gadget Store. All rights reserved.</p>
+        <p>Contact us: support@techzone.com | Visit us in Colombo, Sri Lanka</p>
+    </footer>
+
+</body>
+</html>
